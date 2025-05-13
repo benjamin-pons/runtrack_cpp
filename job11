@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+    double prixHT, nombreKilos, tauxTVA, prixTTC;
+
+    // Demande des informations à l'utilisateur
+    std::cout << "Entrez le prix HT d'un kilo de carottes (en euros) : ";
+    std::cin >> prixHT;
+
+    std::cout << "Entrez le nombre de kilos de carottes : ";
+    std::cin >> nombreKilos;
+
+    std::cout << "Entrez le taux de TVA (en %) : ";
+    std::cin >> tauxTVA;
+
+    // Calcul du prix TTC
+    prixTTC = prixHT * nombreKilos * (1 + tauxTVA / 100);
+
+    // Affichage du prix TTC
+    std::cout << "Le prix TTC des carottes est : " << prixTTC << " euros." << std::endl;
+
+    return 0;
+}

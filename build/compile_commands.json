@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/ponsb/OneDrive/Documents/runtrackC-/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++1z -o CMakeFiles\\mon_programme.dir\\job07.cpp.obj -c C:\\Users\\ponsb\\OneDrive\\Documents\\runtrackC-\\job07.cpp",
+  "file": "C:/Users/ponsb/OneDrive/Documents/runtrackC-/job07.cpp",
+  "output": "CMakeFiles/mon_programme.dir/job07.cpp.obj"
+}
+]
