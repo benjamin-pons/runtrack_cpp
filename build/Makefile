@@ -116,41 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mon_programme
+# Target rules for targets named pingouin
 
 # Build rule for target.
-mon_programme: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mon_programme
-.PHONY : mon_programme
+pingouin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pingouin
+.PHONY : pingouin
 
 # fast build rule for target.
-mon_programme/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mon_programme.dir\build.make CMakeFiles/mon_programme.dir/build
-.PHONY : mon_programme/fast
+pingouin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/build
+.PHONY : pingouin/fast
 
-job07.obj: job07.cpp.obj
-.PHONY : job07.obj
+job03.obj: job03.cpp.obj
+.PHONY : job03.obj
 
 # target to build an object file
-job07.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mon_programme.dir\build.make CMakeFiles/mon_programme.dir/job07.cpp.obj
-.PHONY : job07.cpp.obj
+job03.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job03.cpp.obj
+.PHONY : job03.cpp.obj
 
-job07.i: job07.cpp.i
-.PHONY : job07.i
+job03.i: job03.cpp.i
+.PHONY : job03.i
 
 # target to preprocess a source file
-job07.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mon_programme.dir\build.make CMakeFiles/mon_programme.dir/job07.cpp.i
-.PHONY : job07.cpp.i
+job03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job03.cpp.i
+.PHONY : job03.cpp.i
 
-job07.s: job07.cpp.s
-.PHONY : job07.s
+job03.s: job03.cpp.s
+.PHONY : job03.s
 
 # target to generate assembly for a file
-job07.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\mon_programme.dir\build.make CMakeFiles/mon_programme.dir/job07.cpp.s
-.PHONY : job07.cpp.s
+job03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job03.cpp.s
+.PHONY : job03.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... mon_programme
-	@echo ... job07.obj
-	@echo ... job07.i
-	@echo ... job07.s
+	@echo ... pingouin
+	@echo ... job03.obj
+	@echo ... job03.i
+	@echo ... job03.s
 .PHONY : help
 
 
