@@ -116,41 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pingouin
+# Target rules for targets named ok
 
 # Build rule for target.
-pingouin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pingouin
-.PHONY : pingouin
+ok: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ok
+.PHONY : ok
 
 # fast build rule for target.
-pingouin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/build
-.PHONY : pingouin/fast
+ok/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/build
+.PHONY : ok/fast
 
-job01.obj: job01.cpp.obj
-.PHONY : job01.obj
+job10.obj: job10.cpp.obj
+.PHONY : job10.obj
 
 # target to build an object file
-job01.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job01.cpp.obj
-.PHONY : job01.cpp.obj
+job10.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.obj
+.PHONY : job10.cpp.obj
 
-job01.i: job01.cpp.i
-.PHONY : job01.i
+job10.i: job10.cpp.i
+.PHONY : job10.i
 
 # target to preprocess a source file
-job01.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job01.cpp.i
-.PHONY : job01.cpp.i
+job10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.i
+.PHONY : job10.cpp.i
 
-job01.s: job01.cpp.s
-.PHONY : job01.s
+job10.s: job10.cpp.s
+.PHONY : job10.s
 
 # target to generate assembly for a file
-job01.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/job01.cpp.s
-.PHONY : job01.cpp.s
+job10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.s
+.PHONY : job10.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... pingouin
-	@echo ... job01.obj
-	@echo ... job01.i
-	@echo ... job01.s
+	@echo ... ok
+	@echo ... job10.obj
+	@echo ... job10.i
+	@echo ... job10.s
 .PHONY : help
 
 

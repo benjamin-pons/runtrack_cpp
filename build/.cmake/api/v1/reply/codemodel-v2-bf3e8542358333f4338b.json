@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "PingouinProject",
+					"name" : "ViveLaPlateforme",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "pingouin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pingouin-Debug-79b39b35e9d8b36323f3.json",
-					"name" : "pingouin",
+					"id" : "ok::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ok-Debug-137a5854c24419635a00.json",
+					"name" : "ok",
 					"projectIndex" : 0
 				}
 			]

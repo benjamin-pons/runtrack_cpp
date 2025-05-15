@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\vive_la_plateforme.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\vive_la_plateforme.dir/objects.a @CMakeFiles\vive_la_plateforme.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\vive_la_plateforme.dir/objects.a -Wl,--no-whole-archive -o vive_la_plateforme.exe -Wl,--out-implib,libvive_la_plateforme.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vive_la_plateforme.dir\linkLibs.rsp

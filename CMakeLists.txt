@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
-project(PingouinProject)
+project(ViveLaPlateforme)
 
-set(CMAKE_CXX_STANDARD 17)
+# Spécifier le standard C++
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(pingouin job01.cpp)
+# Ajouter l'exécutable
+add_executable(ok job10.cpp)

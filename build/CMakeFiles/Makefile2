@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = C:\Users\ponsb\OneDrive\Documents\runtrackC-\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pingouin.dir/all
+all: CMakeFiles/ok.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/pingouin.dir/codegen
+codegen: CMakeFiles/ok.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/pingouin.dir/clean
+clean: CMakeFiles/ok.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pingouin.dir
+# Target rules for target CMakeFiles/ok.dir
 
 # All Build rule for target.
-CMakeFiles/pingouin.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=1,2 "Built target pingouin"
-.PHONY : CMakeFiles/pingouin.dir/all
+CMakeFiles/ok.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=1,2 "Built target ok"
+.PHONY : CMakeFiles/ok.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pingouin.dir/rule: cmake_check_build_system
+CMakeFiles/ok.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pingouin.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ok.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles 0
-.PHONY : CMakeFiles/pingouin.dir/rule
+.PHONY : CMakeFiles/ok.dir/rule
 
 # Convenience name for target.
-pingouin: CMakeFiles/pingouin.dir/rule
-.PHONY : pingouin
+ok: CMakeFiles/ok.dir/rule
+.PHONY : ok
 
 # codegen rule for target.
-CMakeFiles/pingouin.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=1,2 "Finished codegen for target pingouin"
-.PHONY : CMakeFiles/pingouin.dir/codegen
+CMakeFiles/ok.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=1,2 "Finished codegen for target ok"
+.PHONY : CMakeFiles/ok.dir/codegen
 
 # clean rule for target.
-CMakeFiles/pingouin.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pingouin.dir\build.make CMakeFiles/pingouin.dir/clean
-.PHONY : CMakeFiles/pingouin.dir/clean
+CMakeFiles/ok.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/clean
+.PHONY : CMakeFiles/ok.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
