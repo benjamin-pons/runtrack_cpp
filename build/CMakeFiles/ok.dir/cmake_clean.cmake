@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ok.dir/job10.cpp.obj"
-  "CMakeFiles/ok.dir/job10.cpp.obj.d"
+  "CMakeFiles/ok.dir/main.cpp.obj"
+  "CMakeFiles/ok.dir/main.cpp.obj.d"
   "libok.dll.a"
   "ok.exe"
   "ok.exe.manifest"

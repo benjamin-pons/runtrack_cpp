@@ -71,28 +71,28 @@ include CMakeFiles/ok.dir/flags.make
 CMakeFiles/ok.dir/codegen:
 .PHONY : CMakeFiles/ok.dir/codegen
 
-CMakeFiles/ok.dir/job10.cpp.obj: CMakeFiles/ok.dir/flags.make
-CMakeFiles/ok.dir/job10.cpp.obj: C:/Users/ponsb/OneDrive/Documents/runtrackC-/job10.cpp
-CMakeFiles/ok.dir/job10.cpp.obj: CMakeFiles/ok.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ok.dir/job10.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ok.dir/job10.cpp.obj -MF CMakeFiles\ok.dir\job10.cpp.obj.d -o CMakeFiles\ok.dir\job10.cpp.obj -c C:\Users\ponsb\OneDrive\Documents\runtrackC-\job10.cpp
+CMakeFiles/ok.dir/main.cpp.obj: CMakeFiles/ok.dir/flags.make
+CMakeFiles/ok.dir/main.cpp.obj: C:/Users/ponsb/OneDrive/Documents/runtrackC-/main.cpp
+CMakeFiles/ok.dir/main.cpp.obj: CMakeFiles/ok.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ponsb\OneDrive\Documents\runtrackC-\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ok.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ok.dir/main.cpp.obj -MF CMakeFiles\ok.dir\main.cpp.obj.d -o CMakeFiles\ok.dir\main.cpp.obj -c C:\Users\ponsb\OneDrive\Documents\runtrackC-\main.cpp
 
-CMakeFiles/ok.dir/job10.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ok.dir/job10.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ponsb\OneDrive\Documents\runtrackC-\job10.cpp > CMakeFiles\ok.dir\job10.cpp.i
+CMakeFiles/ok.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ok.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ponsb\OneDrive\Documents\runtrackC-\main.cpp > CMakeFiles\ok.dir\main.cpp.i
 
-CMakeFiles/ok.dir/job10.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ok.dir/job10.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ponsb\OneDrive\Documents\runtrackC-\job10.cpp -o CMakeFiles\ok.dir\job10.cpp.s
+CMakeFiles/ok.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ok.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ponsb\OneDrive\Documents\runtrackC-\main.cpp -o CMakeFiles\ok.dir\main.cpp.s
 
 # Object files for target ok
 ok_OBJECTS = \
-"CMakeFiles/ok.dir/job10.cpp.obj"
+"CMakeFiles/ok.dir/main.cpp.obj"
 
 # External object files for target ok
 ok_EXTERNAL_OBJECTS =
 
-ok.exe: CMakeFiles/ok.dir/job10.cpp.obj
+ok.exe: CMakeFiles/ok.dir/main.cpp.obj
 ok.exe: CMakeFiles/ok.dir/build.make
 ok.exe: CMakeFiles/ok.dir/linkLibs.rsp
 ok.exe: CMakeFiles/ok.dir/objects1.rsp

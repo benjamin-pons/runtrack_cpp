@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/ponsb/OneDrive/Documents/runtrackC-/build",
-  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\ok.dir\\job10.cpp.obj -c C:\\Users\\ponsb\\OneDrive\\Documents\\runtrackC-\\job10.cpp",
-  "file": "C:/Users/ponsb/OneDrive/Documents/runtrackC-/job10.cpp",
-  "output": "CMakeFiles/ok.dir/job10.cpp.obj"
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\ok.dir\\main.cpp.obj -c C:\\Users\\ponsb\\OneDrive\\Documents\\runtrackC-\\main.cpp",
+  "file": "C:/Users/ponsb/OneDrive/Documents/runtrackC-/main.cpp",
+  "output": "CMakeFiles/ok.dir/main.cpp.obj"
 }
 ]

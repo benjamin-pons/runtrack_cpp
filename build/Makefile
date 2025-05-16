@@ -128,29 +128,29 @@ ok/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/build
 .PHONY : ok/fast
 
-job10.obj: job10.cpp.obj
-.PHONY : job10.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-job10.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.obj
-.PHONY : job10.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-job10.i: job10.cpp.i
-.PHONY : job10.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-job10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.i
-.PHONY : job10.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-job10.s: job10.cpp.s
-.PHONY : job10.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-job10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/job10.cpp.s
-.PHONY : job10.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ok.dir\build.make CMakeFiles/ok.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ok
-	@echo ... job10.obj
-	@echo ... job10.i
-	@echo ... job10.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

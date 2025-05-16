@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/ponsb/OneDrive/Documents/runtrackC-/job10.cpp" "CMakeFiles/ok.dir/job10.cpp.obj" "gcc" "CMakeFiles/ok.dir/job10.cpp.obj.d"
+  "C:/Users/ponsb/OneDrive/Documents/runtrackC-/main.cpp" "CMakeFiles/ok.dir/main.cpp.obj" "gcc" "CMakeFiles/ok.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
